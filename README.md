@@ -22,8 +22,8 @@ The implementation was done with a high-level implementation in-mind, with more 
 
 We will be using three main metrics to analyze our results & gauge each model's *text summarization* task performance:
 
-#1.) [**```ROUGE```**](https://aclanthology.org/W04-1013.pdf) (Recall-Oriented Understudy for Gisting Evaluation): Measures overlap between model-generated summaries and reference summaries.
+#1.) [**```ROUGE```**](https://aclanthology.org/W04-1013.pdf) (*Recall-Oriented Understudy for Gisting Evaluation*): ***Measures overlap between model-generated summaries and reference summaries***.
 
-#2.) [**```BLEU```**](https://doi.org/10.3115%2F1073083.1073135) (Bilingual Evaluation Understudy): Measures n-gram precision.
+#2.) [**```BLEU```**](https://doi.org/10.3115%2F1073083.1073135) (*Bilingual Evaluation Understudy*): ***Measures n-gram precision***.
 
-#3.) [**```METEOR```**](https://aclanthology.org/W05-0909.pdf) (Metric for Evaluation of Translation with Explicit ORdering): Evaluates the quality of the summaries by considering unigram matching, stemming, synonymy, and more.
+#3.) [**```METEOR```**](https://aclanthology.org/W05-0909.pdf) (*Metric for Evaluation of Translation with Explicit ORdering*): ***Evaluates the quality of the summaries by considering unigram matching, stemming, synonymy, and more***.
